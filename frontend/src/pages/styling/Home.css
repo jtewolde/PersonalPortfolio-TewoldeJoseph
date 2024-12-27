@@ -23,7 +23,7 @@
 
 /* Title */
 .home-title {
-    color: #b82693; /* Similar to Tailwind's pink-600 */
+    color: #64ffda;
     font-size: 1.25rem;
     margin-bottom: -1rem;
 }
@@ -55,28 +55,29 @@
 /* Description */
 .home-description {
     color: #8892b0;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     max-width: 700px;
     margin: 0 auto;
 }
 
 .home-button{
+    display: inline-block;
     padding: 0.75rem 1.5rem;
     margin-top: 2rem;
     background-color: transparent;
     color: #ccd6f6;
     border-radius: 0.25rem;
     font-size: 1rem;
-    font-weight: bold;
     cursor: pointer;
     border: 2px solid #ccd6f6;
+    width: 30%
 }
 
 .home-button:hover {
-    background-color: #a61e8c; /* Similar to Tailwind's pink-700 */
+    background-color: #41a48d;
     transform: scale(1.05);
-    border-color: #a61e8c;
+    border-color: #3eaf94;
 }
 
 

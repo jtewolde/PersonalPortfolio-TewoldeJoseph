@@ -1,0 +1,61 @@
+/* Background */
+.about-background {
+    width: 100%;
+    height: 100vh;
+    background-color: #0a192f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+/* Container */
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    gap: 1.5rem; /* Add spacing between title and text */
+}
+
+.about-title {
+    color: #ccd6f6;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 0.25rem; /* Reduce padding for closer underline */
+    border-bottom: 2px solid #64ffda;
+    display: inline-block;
+    text-align: center; 
+    width: fit-content; /* Fit underline to text width */
+}
+
+.about-text {
+    color: #ccd6f6;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Ensure text spans full width */
+    padding: 0; /* Remove extra padding */
+}
+
+.about-paragraph {
+    color: #8892b0;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left; /* Align paragraph text to the left */
+    width: 100%; /* Ensure paragraph spans full width */
+    padding: 0; /* Remove extra padding */
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        align-items: center; /* Center-align items on small screens */
+        text-align: center; /* Center text on small screens */
+    }
+    .about-title, .about-text, .about-paragraph {
+        text-align: center;
+    }
+}
