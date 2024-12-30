@@ -1,19 +1,21 @@
 .skills-background {
     background-color: #0a192f;
-    padding: 2rem;
+    padding-left: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .skills-container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin-left: -13rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    text-align: left;
+    align-items: flex-start; /* Align items to the left */
     color: #ccd6f6;
 }
 
@@ -24,7 +26,7 @@
     padding-bottom: 0.25rem; /* Reduce padding for closer underline */
     border-bottom: 2px solid #64ffda;
     display: inline-block;
-    text-align: center; 
+    text-align: left;
     width: fit-content; /* Fit underline to text width */
 }
 
@@ -36,6 +38,15 @@
     text-align: left; /* Align text to the left */
     width: 100%; /* Ensure text spans full width */
     padding: 0; /* Remove extra padding */
+}
+
+.skills-description-text {
+    color: #ccd6f6;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center; /* Align paragraph text to the left */
+    width: 100%; /* Ensure paragraph spans full width */
+    padding-bottom: 1rem;
 }
 
 .skills-ptext {
@@ -62,8 +73,8 @@
 
 .skills-image{
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .skills-image::before {

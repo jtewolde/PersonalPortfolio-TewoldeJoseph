@@ -20,7 +20,7 @@ export default function Skills() {
 
                 <h1 className="skills-title">Skills</h1>
                 
-                <p className="skills-text"> 
+                <p className="skills-description-text">
                 Here are some of the skills I have acquired through my education and experiences:
                 </p>
 

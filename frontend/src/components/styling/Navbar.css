@@ -30,8 +30,11 @@ body {
     position: relative;;
 }
 
-.navbar-logo{
-    width: 100px;
+.navbar-logo-image{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: -50px;
     cursor: pointer;
 }
 
@@ -233,7 +236,9 @@ nav .menu span{
 
     .navbar-logo {
         width: 60px;
+        height: 60px;
         margin-top: -54px;
         position: absolute;
     }
+    
 }

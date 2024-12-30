@@ -5,7 +5,7 @@ import { FaBars, FaTimes,  FaLinkedin, FaGithub} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-import LogoRed from '../assets/LogoRed.png';
+import NewLogo from '../assets/NewLogo.png';
 import '../components/styling/Navbar.css';
 
 export default function Navbar() {
@@ -23,7 +23,7 @@ export default function Navbar() {
 
             <div className="navbar-logo ">
                 {/* Logo */}
-                <img src={LogoRed} alt="Logo" style={{width: "150px", height: "150px", marginLeft: "-30px"}}/>
+                <img src={NewLogo} alt="Logo" className="navbar-logo-image"/>
             </div>
          
             {/* Hamburguer menu for mobile */}
