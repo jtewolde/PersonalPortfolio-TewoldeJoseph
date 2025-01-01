@@ -10,7 +10,7 @@
 
 .skills-container {
     max-width: 1000px;
-    margin-left: -13rem;
+    margin-left: -1rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@
     display: inline-block;
     text-align: left;
     width: fit-content; /* Fit underline to text width */
+    margin-left: -5rem;
 }
 
 .skills-text {
@@ -38,6 +39,7 @@
     text-align: left; /* Align text to the left */
     width: 100%; /* Ensure text spans full width */
     padding: 0; /* Remove extra padding */
+    margin-left: -5rem;
 }
 
 .skills-description-text {
@@ -63,6 +65,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     margin-top: 1rem;
+    align-items: center;
 }
 
 .skills-image-Python {
