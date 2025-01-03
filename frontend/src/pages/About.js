@@ -20,7 +20,12 @@ export default function About() {
 
                     I am a senior at Metropolitian State University of Denver studying Computer Science. 
                     I am passionate about software development and I am always looking for new opportunities to learn and grow!
-                    Some of my hobbies include playing video games, watching sports like NBA basketball and NFL football, and spending time with my family and friends!
+                    Some of my hobbies include playing video games, watching sports like NBA basketball and NFL football, and spending time with my family and friends! <br></br> <br></br>
+
+
+                    Throughout my academic career, I have worked on various projects that have helped me develop my skills as a software developer.
+                    Using tools like HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB, I have been able to create full-stack applications that are both functional and visually appealing.
+                    I am excited to continue learning and growing as a software developer and I am looking forward to the opportunities that lie ahead!
 
 
                 </p>

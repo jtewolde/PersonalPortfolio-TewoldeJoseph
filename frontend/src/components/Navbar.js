@@ -36,8 +36,8 @@ export default function Navbar() {
             <ul className={`navbar-menu ${isOpen ? "show" : ""}`}>
                 <li><NavLink to="/" className="navbar-link">Home</NavLink></li>
                 <li><NavLink to="about-page" className="navbar-link">About</NavLink></li>
-                <li><NavLink to="projects-page" className="navbar-link">Projects</NavLink></li>
                 <li><NavLink to="skills-page" className="navbar-link">Skills</NavLink></li>
+                <li><NavLink to="projects-page" className="navbar-link">Projects</NavLink></li>
                 <li><NavLink to="contact-page" className="navbar-link">Contact</NavLink></li>
             </ul>
 
