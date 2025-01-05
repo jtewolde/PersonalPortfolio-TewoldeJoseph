@@ -79,7 +79,8 @@
     color: #ccd6f6;
     font-size: 18px;
     line-height: 1.8;
-    text-align: left;
+    text-align: center;
+    font-weight: 400;
     width: 100%; /* Ensure paragraph spans full width */
     padding-bottom: 1rem;
 }
@@ -137,9 +138,60 @@
     border: 2px solid black;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 350;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: "Poppins", sans-serif;
     margin-bottom: 3.5rem;
 }
+
+@media screen and (max-width: 768px){
+    .projects-page {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .projects-container {
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .projects-title {
+        text-align: center;
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .projects-image {
+        max-width: 80%;
+    }
+
+    .project-card {
+        grid-template-rows: auto;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .projects-content {
+        width: 100%;
+    }
+
+    .projects-description {
+        font-size: 16px;
+    }
+
+    .projects-list {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .projects-buttons {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+}
+

@@ -98,6 +98,14 @@
     .skills-title, .skills-text {
         text-align: center;
     }
+
+
+    .skills-title {
+        margin-top: 15rem;
+        margin-left: 0;
+    }
+
+    
     .skills-list {
         grid-template-columns: repeat(1, 1fr);
     }

@@ -1,6 +1,7 @@
 import React from 'react'
 import RRH from '../assets/RRH-Screenshot.png'
 import TimelyCuts from '../assets/TimelyCuts.png'
+import NBAStats from '../assets/NBAStatsApp.png'
 import { Link } from 'react-router-dom'
 import '../pages/styling/Projects.css'
 
@@ -15,7 +16,7 @@ const projects = [
     },
     {
         name: "Timely Cuts",
-        description: "Timely Cuts is a web application that provides a platform for barbers and clients to schedule appointments. The application allows barbers to create, read, update, and delete appointments. The application also allows clients to search for barbers and schedule appointments. The application was created using React, Node.js, Express, and MongoDB. The application was deployed using Heroku. This was created as a senior project for the CS4610 course at MSU Denver with a team of 4 students using Agile methodologies. My role in the project was a full-stack developer and worked on the front-end and back-end of the application.",
+        description: "Timely Cuts is a web application that provides a platform for barbers and clients to schedule appointments. The application allows barbers to create, read, update, and delete appointments. The application also allows clients to search for barbers and schedule appointments. The application was created using React, Node.js, Javascript, HTML, CSS, and Firebase. The application was deployed using GitHub Pages. This was a personal project that I created to learn how to create a web application using React and Firebase in order to solve a problem that I have experienced with scheduling appointments at barbershops.",
         image: TimelyCuts,
         techStack: ["React", "Node.js", "Firebase", "CSS", "HTML", "MongoDB", "JavaScript"],
         github: "https://github.com/jtewolde/barbershop-react-project",
@@ -23,10 +24,10 @@ const projects = [
     },
     {
         name: "NBA Statistic Web Application",
-        description: "Project 3 description",
-        image: "https://via.placeholder.com/150",
-        techStack: [],
-        github: "https://github.com",
+        description: "The NBA Statistic Web Application is a web application that provides NBA statistics for players and teams. The application allows users to search for players and teams and view their statistics. The application was created using Python, Flask, and SQLAlchemy. The application was deployed using Docker. This was a personal project that I created to learn how to create a web application using Python and Flask and to learn how to deploy a web application using Docker with my interest in basketball.",
+        image: NBAStats,
+        techStack: ["Python", "Flask", "HTML", "CSS", "SQLAlchemy", "Docker"],
+        github: "https://github.com/jtewolde/NBAStats-FlaskWebApp",
         website: "https://website.com"
     }
 ]
@@ -47,7 +48,7 @@ export default function Projects() {
                         return (
                             <div className="projects-card" key={index}>
 
-                                <h2 className="projects-name">{project.name}</h2>
+                                <h2 className="projects-name">{project.name}</h2> <br />
 
                                 <img src={project.image} alt={project.name} className="projects-image" />
 
@@ -67,11 +68,11 @@ export default function Projects() {
                                     <div className="projects-buttons">
 
                                         <button className="projects-button">
-                                            <Link to={project.github} target="_blank">GitHub</Link>
+                                            <Link to={project.github} target="_blank">Visit Source Code</Link>
                                         </button>
 
                                         <button className="projects-button">
-                                            <Link to={project.website} target="_blank">Website</Link>
+                                            <Link to={project.website} target="_blank">Visit Website</Link>
                                         </button>
 
                                     </div>

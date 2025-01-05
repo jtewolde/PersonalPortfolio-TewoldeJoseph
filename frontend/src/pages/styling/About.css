@@ -58,4 +58,8 @@
     .about-title, .about-text, .about-paragraph {
         text-align: center;
     }
+
+    .about-title {
+        margin-top: 15rem;
+    }
 }
