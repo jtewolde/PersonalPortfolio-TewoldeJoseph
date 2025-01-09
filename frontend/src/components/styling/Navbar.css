@@ -75,6 +75,10 @@ body {
     transition: .3s;
 }
 
+.navbar-link{
+    cursor: pointer;
+}
+
 .navbar a:hover::before{
     width: 100%;
 }

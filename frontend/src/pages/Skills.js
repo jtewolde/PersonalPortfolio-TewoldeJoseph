@@ -9,16 +9,17 @@ import ReactIcon from '../assets/react.png';
 import nodeJS from '../assets/node.png';
 import Firebase from '../assets/firebase.png';
 import MongoDB from '../assets/mongo.png';
+import Flask from '../assets/flask1.png';
 
 import '../pages/styling/Skills.css';
 
 export default function Skills() {
     return (
-        <div className="skills-background">
+        <div className="skills-background" id="skills">
 
             <div className="skills-container">
 
-                <h1 className="skills-title">Skills</h1>
+                <h1 className="skills-title">Techincal Skills</h1>
                 
                 <p className="skills-description-text">
                 Here are some of the skills I have acquired through my education and experiences:
@@ -69,6 +70,11 @@ export default function Skills() {
                     <div className="skills-item">
                         <img src={GitHub} alt="GitHub" className="skills-image"/>
                         <p className="skills-ptext">GitHub</p>
+                    </div>
+
+                    <div className="skills-item">
+                        <img src={Flask} alt="Flask" className="skills-image"/>
+                        <p className="skills-ptext">Flask</p>
                     </div>
 
                 </div>

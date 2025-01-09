@@ -6,7 +6,7 @@ import '../pages/styling/Home.css';
 
 export default function Home() {
     return (
-        <div className="home-background">
+        <div className="home-background" id = "home">
 
             <div className="home-container">
 

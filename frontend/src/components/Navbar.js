@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 import { FaBars, FaTimes,  FaLinkedin, FaGithub} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -34,11 +34,22 @@ export default function Navbar() {
 
             {/* Navbar menu */}
             <ul className={`navbar-menu ${isOpen ? "show" : ""}`}>
-                <li><NavLink to="/" className="navbar-link">Home</NavLink></li>
-                <li><NavLink to="about-page" className="navbar-link">About</NavLink></li>
-                <li><NavLink to="skills-page" className="navbar-link">Skills</NavLink></li>
-                <li><NavLink to="projects-page" className="navbar-link">Projects</NavLink></li>
-                <li><NavLink to="contact-page" className="navbar-link">Contact</NavLink></li>
+                <li>
+                    <Link to="home" className="navbar-link" smooth={true} duration={500} offset={-30} onClick={toggleNavbar}>Home</Link>
+                </li>
+                <li>
+                    <Link to="about" className="navbar-link" smooth={true} duration={500} offset={-30} onClick={toggleNavbar}>About</Link>
+                </li>
+                <li>
+                    <Link to="skills" className="navbar-link" smooth={true} duration={500} offset={-70} onClick={toggleNavbar}>Skills</Link>
+                </li>
+                <li>
+                    <Link to="projects" className="navbar-link" smooth={true} duration={500} offset={-30} onClick={toggleNavbar}>Projects</Link>
+                </li>
+                <li>
+                    <Link to="contact" className="navbar-link" smooth={true} duration={500} offset={-30} onClick={toggleNavbar}>Contact</Link>
+                </li>
+                
             </ul>
 
 

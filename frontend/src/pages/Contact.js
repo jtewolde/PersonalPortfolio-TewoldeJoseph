@@ -3,7 +3,7 @@ import '../pages/styling/Contact.css'
 
 export default function Contact() {
     return (
-        <div className="contact-page">
+        <div className="contact-page" id="contact">
 
             <div className="contact-container">
 

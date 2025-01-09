@@ -28,7 +28,7 @@
     display: inline-block;
     text-align: left;
     width: fit-content; /* Fit underline to text width */
-    margin-left: -5rem;
+    margin-left: -8rem;
 }
 
 .skills-text {
@@ -49,6 +49,7 @@
     text-align: center; /* Align paragraph text to the left */
     width: 100%; /* Ensure paragraph spans full width */
     padding-bottom: 1rem;
+    margin-left: -5rem;
 }
 
 .skills-ptext {
@@ -62,22 +63,23 @@
 
 .skills-list{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.7rem;
     margin-top: 1rem;
     align-items: center;
+    justify-content: center;
 }
 
 .skills-image-Python {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-top: -4
 }
 
 .skills-image{
     cursor: pointer;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
 }
 
 .skills-image::before {
@@ -88,6 +90,11 @@
 
 .skills-image:hover {
     transform: scale(1.1);
+}
+
+.skills-image-Python:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
