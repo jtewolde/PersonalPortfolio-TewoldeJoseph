@@ -12,6 +12,8 @@
 
 .projects-container{
     max-width: 1000px;
+    width: 100%;
+    padding: 2rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -149,7 +151,8 @@
     .projects-page {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        width : 100%;
+        padding-left: 0;
     }
 
     .projects-container {
@@ -157,12 +160,22 @@
         text-align: center;
         gap: 1.5rem;
         padding: 1rem;
+        box-sizing: border-box;
     }
 
     .projects-title {
         text-align: center;
         margin-left: 0;
         font-size: 24px;
+    }
+
+    .projects-description-title {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 16px;
+        word-wrap: break-word;
+        line-height: 1.8;
     }
 
     .projects-image {
@@ -181,11 +194,21 @@
 
     .projects-description {
         font-size: 16px;
+        text-align: center;
+        word-wrap: break-word;
+        align-items: center;
+        padding: 0;
+
     }
 
     .projects-list {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+    }
+
+    .projects-tech-stack {
+        flex-direction: row;
+        gap: 0.1rem;
     }
 
     .projects-buttons {

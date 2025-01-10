@@ -101,26 +101,28 @@
     .skills-container {
         align-items: center; /* Center-align items on small screens */
         text-align: center; /* Center text on small screens */
-    }
-    .skills-title, .skills-text {
-        text-align: center;
+        padding: 0 1.5rem; /* Add horizontal padding to prevent text from touching the edges */
     }
 
+    .skills-title, .skills-text, .skills-description-text, .skills-ptext {
+        text-align: center;
+        margin-left: 0; /* Reset margin for centering */
+    }
 
     .skills-title {
-        margin-top: 15rem;
-        margin-left: 0;
+        margin-top: 15rem; /* Adjust top margin for spacing */
+        margin-bottom: 1rem; /* Add bottom margin for spacing */
     }
 
-    
-    .skills-list {
-        grid-template-columns: repeat(1, 1fr);
+    .skills-text, .skills-description-text, .skills-ptext {
+        padding: 0; /* Remove unnecessary padding */
+        margin: 0 auto; /* Center the text block */
     }
-    
-    .skills-list{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
+
+    .skills-list {
+        grid-template-columns: repeat(5, 1fr); /* Adjust grid for smaller screens */
+        gap: 2rem; /* Add spacing between items */
         margin-top: 1rem;
+        padding: 0 1rem; /* Add padding for consistent spacing */
     }
 }

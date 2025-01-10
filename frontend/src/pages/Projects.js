@@ -20,7 +20,7 @@ const projects = [
         image: TimelyCuts,
         techStack: ["React", "Node.js", "Firebase", "CSS", "HTML", "MongoDB", "JavaScript"],
         github: "https://github.com/jtewolde/barbershop-react-project",
-        website: "https://jtewolde.github.io/barbershop-react-project/home"
+        website: "https://jtewolde.github.io/barbershop-react-project/"
     },
     {
         name: "NBA Statistic Web Application",
