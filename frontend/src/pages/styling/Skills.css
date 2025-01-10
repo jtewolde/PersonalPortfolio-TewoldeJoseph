@@ -120,7 +120,7 @@
     }
 
     .skills-list {
-        grid-template-columns: repeat(5, 1fr); /* Adjust grid for smaller screens */
+        grid-template-columns: repeat(2, 1fr); /* Adjust grid for smaller screens */
         gap: 2rem; /* Add spacing between items */
         margin-top: 1rem;
         padding: 0 1rem; /* Add padding for consistent spacing */
