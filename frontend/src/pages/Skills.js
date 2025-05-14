@@ -10,6 +10,8 @@ import nodeJS from '../assets/node.png';
 import Firebase from '../assets/firebase.png';
 import MongoDB from '../assets/mongo.png';
 import Flask from '../assets/flask1.png';
+import Next from '../assets/NextJS.png';
+import TypeScript from '../assets/Typescript.png'
 
 import '../pages/styling/Skills.css';
 
@@ -26,6 +28,17 @@ export default function Skills() {
                 </p>
 
                 <div className="skills-list">
+
+                    
+                    <div className="skills-item">
+                        <img src={Next} alt="NextJS" className="skills-image"/>
+                        <p className="skills-ptext">NextJS</p>
+                    </div>
+
+                    <div className="skills-item">
+                        <img src={ReactIcon} alt="React" className="skills-image"/>
+                        <p className="skills-ptext">React</p>
+                    </div>
                     
                     <div className="skills-item">
                         <img src={HTML} alt="HTML" className="skills-image"/>
@@ -42,14 +55,16 @@ export default function Skills() {
                         <p className="skills-ptext">JavaScript</p>
                     </div>
 
+                    
+                    <div className="skills-item">
+                        <img src={TypeScript} alt="Typescript" className="skills-image"/>
+                        <p className="skills-ptext">TypeScript</p>
+                    </div>
+
+
                     <div className="skills-item">
                         <img src={Python} alt="Python" className="skills-image-Python"/>
                         <p className="skills-ptext">Python</p>
-                    </div>
-
-                    <div className="skills-item">
-                        <img src={ReactIcon} alt="React" className="skills-image"/>
-                        <p className="skills-ptext">React</p>
                     </div>
 
                     <div className="skills-item">

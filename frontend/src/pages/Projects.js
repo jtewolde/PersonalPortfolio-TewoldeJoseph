@@ -2,10 +2,19 @@ import React from 'react'
 import RRH from '../assets/RRH-Screenshot.png'
 import TimelyCuts from '../assets/TimelyCuts.png'
 import NBAStats from '../assets/NBAStatsApp.png'
+import Checkpoint from '../assets/CheckpointHomeScreen.png';
 import { Link } from 'react-router-dom'
 import '../pages/styling/Projects.css'
 
 const projects = [
+    {
+        name: "CheckPoint - Gaming Journal",
+        description: "CheckPoint is a sleek, Next.js-powered web application built for gamers who want to stay organized and intentional about their gaming experiences. Whether you're deep into a long RPG or juggling multiple titles, CheckPoint helps you track your in-game progress, log detailed session journals, and visualize your journey over time. Designed with both casual and dedicated players in mind, it ensures you’ll always remember what you accomplished—and where to pick up next. From backlog management to session summaries, CheckPoint transforms how you interact with your games.",
+        image: Checkpoint,
+        techStack: ['NextJS', 'React', 'TypeScript', 'MongoDB', 'Node.js', 'Better-Auth', 'IGDB API', 'Mantine UI'],
+        github: "https://github.com/jtewolde/CheckPoint-PersonalizedGamingJournal",
+        website: "https://website.com"
+    },
     {
         name: "Roadrunner Resource Hub",
         description: "The Roadrunner Resource Hub is a web application that provides a platform for MSU Denver students to share resources and information with each other. The application allows students to create, read, update, and delete resources. The application also allows students to search for resources by category and title. The application was created using React, Node.js, Express, and MongoDB. The application was deployed using Firebase. This was created as a senior project for the CS4610 course at MSU Denver with a team of 4 students using Agile methodologies. My role in the project was a full-stack developer and worked on the front-end and back-end of the application.",
