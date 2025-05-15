@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio-TewoldeJoseph/static/css/main.bd2a4e1a.css",
-    "main.js": "/PersonalPortfolio-TewoldeJoseph/static/js/main.9ac1cc1e.js",
-    "static/js/488.e75445ad.chunk.js": "/PersonalPortfolio-TewoldeJoseph/static/js/488.e75445ad.chunk.js",
+    "main.css": "/PersonalPortfolio-TewoldeJoseph/static/css/main.42f27316.css",
+    "main.js": "/PersonalPortfolio-TewoldeJoseph/static/js/main.7e803054.js",
+    "static/js/488.7213179a.chunk.js": "/PersonalPortfolio-TewoldeJoseph/static/js/488.7213179a.chunk.js",
     "static/media/NBAStatsApp.png": "/PersonalPortfolio-TewoldeJoseph/static/media/NBAStatsApp.57a91609cf6a5533dbf7.png",
     "static/media/CheckpointHomeScreen.png": "/PersonalPortfolio-TewoldeJoseph/static/media/CheckpointHomeScreen.6eb9ffd0b972599af3b1.png",
     "static/media/RRH-Screenshot.png": "/PersonalPortfolio-TewoldeJoseph/static/media/RRH-Screenshot.ca7c73dc349c300eea0d.png",
     "static/media/TimelyCuts.png": "/PersonalPortfolio-TewoldeJoseph/static/media/TimelyCuts.95fed0ce5187f2659884.png",
     "static/media/flask1.png": "/PersonalPortfolio-TewoldeJoseph/static/media/flask1.f02a3c689dbb0374bbf3.png",
     "static/media/Python.png": "/PersonalPortfolio-TewoldeJoseph/static/media/Python.d3fc9717009bf619e98c.png",
+    "static/media/Express2.png": "/PersonalPortfolio-TewoldeJoseph/static/media/Express2.c80220c3d6374063410b.png",
+    "static/media/Jira.png": "/PersonalPortfolio-TewoldeJoseph/static/media/Jira.49347aa2d68d65b822b2.png",
+    "static/media/Java.png": "/PersonalPortfolio-TewoldeJoseph/static/media/Java.b5923cf3780423247855.png",
+    "static/media/PostmanTransparent.png": "/PersonalPortfolio-TewoldeJoseph/static/media/PostmanTransparent.7e0329cea47f5b51a359.png",
     "static/media/NewLogo.png": "/PersonalPortfolio-TewoldeJoseph/static/media/NewLogo.294bd06c7570d0107ce1.png",
     "static/media/react.png": "/PersonalPortfolio-TewoldeJoseph/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/NextJS.png": "/PersonalPortfolio-TewoldeJoseph/static/media/NextJS.c72482c59ce8f22648a4.png",
     "static/media/node.png": "/PersonalPortfolio-TewoldeJoseph/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/PersonalPortfolio-TewoldeJoseph/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/Typescript.png": "/PersonalPortfolio-TewoldeJoseph/static/media/Typescript.4b5fbb860aba7327c965.png",
+    "static/media/Docker.png": "/PersonalPortfolio-TewoldeJoseph/static/media/Docker.4335b98ee3d8395ccd5d.png",
     "static/media/github.png": "/PersonalPortfolio-TewoldeJoseph/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/PersonalPortfolio-TewoldeJoseph/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/PersonalPortfolio-TewoldeJoseph/static/media/css.69a82c2d9e45c933a9cb.png",
@@ -23,12 +28,12 @@
     "static/media/javascript.png": "/PersonalPortfolio-TewoldeJoseph/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/logo.svg": "/PersonalPortfolio-TewoldeJoseph/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PersonalPortfolio-TewoldeJoseph/index.html",
-    "main.bd2a4e1a.css.map": "/PersonalPortfolio-TewoldeJoseph/static/css/main.bd2a4e1a.css.map",
-    "main.9ac1cc1e.js.map": "/PersonalPortfolio-TewoldeJoseph/static/js/main.9ac1cc1e.js.map",
-    "488.e75445ad.chunk.js.map": "/PersonalPortfolio-TewoldeJoseph/static/js/488.e75445ad.chunk.js.map"
+    "main.42f27316.css.map": "/PersonalPortfolio-TewoldeJoseph/static/css/main.42f27316.css.map",
+    "main.7e803054.js.map": "/PersonalPortfolio-TewoldeJoseph/static/js/main.7e803054.js.map",
+    "488.7213179a.chunk.js.map": "/PersonalPortfolio-TewoldeJoseph/static/js/488.7213179a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd2a4e1a.css",
-    "static/js/main.9ac1cc1e.js"
+    "static/css/main.42f27316.css",
+    "static/js/main.7e803054.js"
   ]
 }
