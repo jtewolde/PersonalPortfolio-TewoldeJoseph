@@ -31,6 +31,17 @@
     margin-left: -8rem;
 }
 
+.languagesText{
+    color: #ccd6f6;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: center; /* Align text to the left */
+    align-self: center;
+    width: 100%; /* Ensure text spans full width */
+    padding: 0; /* Remove extra padding */
+}
+
 .skills-text {
     color: #ccd6f6;
     font-size: 20px;
@@ -70,10 +81,24 @@
     justify-content: center;
 }
 
+.frameworksList{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.7rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
 .skills-image-Python {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-top: -4
+}
+
+.skills-image-express{
+    width: 100px;
+    height: 120px;
 }
 
 .skills-image{
