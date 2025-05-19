@@ -53,7 +53,9 @@
 @media screen and (max-width: 768px) {
     .about-container {
         align-items: center; /* Center-align items on small screens */
+        margin-top: 40rem;
         text-align: center; /* Center text on small screens */
+        margin-bottom: 10rem;
     }
     .about-title, .about-text, .about-paragraph {
         text-align: center;

@@ -124,12 +124,13 @@
 
 @media screen and (max-width: 768px) {
     .skills-container {
+        margin-top: 25rem;
         align-items: center; /* Center-align items on small screens */
         text-align: center; /* Center text on small screens */
         padding: 0 1.5rem; /* Add horizontal padding to prevent text from touching the edges */
     }
 
-    .skills-title, .skills-text, .skills-description-text, .skills-ptext {
+    .skills-title, .skills-text, .skills-ptext {
         text-align: center;
         margin-left: 0; /* Reset margin for centering */
     }
@@ -139,9 +140,16 @@
         margin-bottom: 1rem; /* Add bottom margin for spacing */
     }
 
-    .skills-text, .skills-description-text, .skills-ptext {
-        padding: 0; /* Remove unnecessary padding */
-        margin: 0 auto; /* Center the text block */
+    .skills-description-text{
+        text-align: center;
+        word-break: break-all;
+        padding-left: 3rem;
+    }
+
+    .langugaesText{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        font-weight: bold;
     }
 
     .skills-list {

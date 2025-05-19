@@ -135,12 +135,12 @@
 
 .projects-tech-button{
     padding: 0.5rem 1rem;
-    background-color: rgba(255, 0, 0, 0.605);
-    color: #ccd6f6;
+    background-color: rgba(75, 108, 174, 0.793);
+    color: #e3e6f1;
     border: 2px solid black;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: 350;
+    font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: "Poppins", sans-serif;
@@ -179,7 +179,7 @@
     }
 
     .projects-image {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .project-card {
@@ -206,14 +206,19 @@
         width: 100%;
     }
 
-    .projects-tech-stack {
-        flex-direction: row;
-        gap: 0.1rem;
+    .projects-buttons{
+        padding-top: 3rem;
     }
 
-    .projects-buttons {
-        flex-direction: row;
-        gap: 0.5rem;
+     .projects-tech-stack, .projects-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects-tech-button, .projects-button {
+        font-size: 14px;
+        padding: 0.4rem 0.8rem;
+        margin: 0.25rem;
     }
 
 }

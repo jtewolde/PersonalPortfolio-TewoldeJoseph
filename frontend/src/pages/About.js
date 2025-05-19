@@ -18,7 +18,7 @@ export default function About() {
 
                 <p className="about-paragraph">
 
-                    I am a senior at Metropolitian State University of Denver studying Computer Science. 
+                    I am a recent May 2025 computer science graduate from Metropolitian State University of Denver!  
                     I am passionate about software development and I am always looking for new opportunities to learn and grow!
                     Some of my hobbies include playing video games, watching sports like NBA basketball and NFL football, and spending time with my family and friends! <br></br> <br></br>
 

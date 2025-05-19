@@ -13,7 +13,7 @@ const projects = [
         image: Checkpoint,
         techStack: ['NextJS', 'React', 'TypeScript', 'MongoDB', 'Node.js', 'Better-Auth', 'IGDB API', 'Mantine UI'],
         github: "https://github.com/jtewolde/CheckPoint-PersonalizedGamingJournal",
-        website: "https://website.com"
+        website: "https://checkpoint-gaming.vercel.app/"
     },
     {
         name: "Roadrunner Resource Hub",

@@ -82,4 +82,19 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .home-container {
+        align-items: center; /* Center-align items on small screens */
+        padding-top: 36rem;
+        padding-bottom: 45rem;
+        text-align: center; /* Center text on small screens */
+    }
+    .home-title, .home-text, .home-paragraph {
+        text-align: center;
+    }
+
+    .home-title {
+        margin-top: 15rem;
+    }
+}
 

@@ -25,11 +25,13 @@ export default function Skills() {
         <div className="skills-background" id="skills">
             <div className="skills-container">
                 <h1 className="skills-title">Technical Skills</h1>
+
                 <p className="skills-description-text">
                     Here are some of the skills I have acquired through my education and experiences:
                 </p>
 
                 <h2 className="langugaesText">Languages:</h2>
+
                 <div className="skills-list">
                     <div className="skills-item">
                         <img src={Java} alt="Java" className="skills-image" />
@@ -82,7 +84,7 @@ export default function Skills() {
                 </div>
 
                 <h2 className="langugaesText">Dev Tools & Platforms:</h2>
-                <div className="frameworksList">
+                <div className="skills-list">
 
                     <div className="skills-item">
                         <img src={MongoDB} alt="MongoDB" className="skills-image" />
