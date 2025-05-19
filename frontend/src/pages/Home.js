@@ -1,6 +1,5 @@
 import React from "react";
 import PortfolioImage from '../assets/PortfolioImage.jpg';
-import {HiArrowNarrowRight} from 'react-icons/hi';
 import '../pages/styling/Home.css';
 import { useNavigate } from "react-router-dom";
 
@@ -29,10 +28,7 @@ export default function Home() {
                     I am passionate about software development and I am always looking for new opportunities to learn and grow! 
                     
                 </p>
-                    
-            
-                {/* Button to view my projects/work */}
-                <button className="home-button">View My Work <HiArrowNarrowRight className="home-button-icon" onClick={handleClick}/></button>
+                
 
             </div>
 
