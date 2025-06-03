@@ -72,7 +72,7 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li className= "resume">
-                        <a href="https://drive.google.com/file/d/13MFADrnIVfOLXv7zBkwoPMIR73SvTQyA/view?usp=drive_link" target="_blank" rel="noreferrer" className='resumeIcon'>
+                        <a href="https://drive.google.com/file/d/19vhfGqWKa-qAahALJesatJ8wNWJdZ2Ty/view?usp=sharing" target="_blank" rel="noreferrer" className='resumeIcon'>
                             Resume <BsFillPersonLinesFill size={40}/>
                         </a>
                     </li>

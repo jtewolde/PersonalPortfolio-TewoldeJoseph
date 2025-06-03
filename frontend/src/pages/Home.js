@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioImage from '../assets/PortfolioImage.jpg';
+import PortfolioImage from '../assets/UpdatedPortfolioImage.jpg';
 import '../pages/styling/Home.css';
 import { useNavigate } from "react-router-dom";
 
